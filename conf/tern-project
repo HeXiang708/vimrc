@@ -1,0 +1,20 @@
+{
+  "libs": [
+    "browser",
+    "jquery",
+    "underscore",
+    "backbone",
+    "requirejs"
+  ],
+  "loadEagerly": [
+    "importantfile.js"
+  ],
+  "plugins": {
+    "node": {},
+    "complete_strings": {},
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {}
+    }
+  }
+}
